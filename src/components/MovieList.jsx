@@ -36,7 +36,7 @@ const MovieList = ({ title, movies }) => {
       </div>
 
       <div
-        className={`absolute top-24 left-1 md:top-48 left-12 h-9 w-12 bg-gray-500 opacity-60 rounded-full flex justify-center items-center h-full text-white transition-transform duration-300 ease-in-out transform translate-x-${
+        className={`absolute top-24 left-1 md:top-48 left-12 h-9 w-12 bg-gray-500 opacity-60 rounded-full flex justify-center items-center text-white transition-transform duration-300 ease-in-out transform translate-x-${
           isHoverLeft ? "-2" : "0"
         } cursor-pointer`}
         onMouseEnter={() => setHoverLeft(true)}
@@ -45,7 +45,7 @@ const MovieList = ({ title, movies }) => {
         <FontAwesomeIcon icon={faChevronLeft} size="2x" />
       </div>
       <div
-        className={`absolute top-24 right-1 md:top-48 right-12 h-9 w-12 bg-gray-500 opacity-60 rounded-full flex justify-center items-center h-full text-white transition-transform duration-300 ease-in-out transform translate-x-${
+        className={`absolute top-24 right-1 md:top-48 right-12 h-9 w-12 bg-gray-500 opacity-60 rounded-full flex justify-center items-center text-white transition-transform duration-300 ease-in-out transform translate-x-${
           isHoverRight ? "2" : "0"
         } cursor-pointer`}
         onMouseEnter={() => setHoverRight(true)}
